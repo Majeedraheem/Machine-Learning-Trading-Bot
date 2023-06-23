@@ -81,7 +81,8 @@ The two models before adjusting the besedline SVM model scored 55% accuracy wher
 however, after tunning the windows by increasing and both models have achieved less accuracy 
 
 3. Choose the set of parameters that best improved the trading algorithm returns. Save a PNG image of the cumulative product of the actual returns vs. the strategy returns, and document your conclusion in your `README.md` file.
-!['Actual Returns vs Strategy Returns BeforeTuning'](Images/logisticRegressionModel.png)
+!['Actual Returns vs Strategy Returns'](Actual-Returns-vs-Strategy-Returns-BeforeTuning-using-logisticRegressionModel.png)
+
  Both model preformed slighty higher with basedline which was shorter time windows 
 ### Evaluate a New Machine Learning Classifier
 
@@ -95,7 +96,7 @@ In this section, you’ll use the original parameters that the starter code prov
 
 ### Create an Evaluation Report
 
-!['Actual Returns vs Strategy Returns Tunned using logisticRegressionModel'](Images/Actual Returns vs Strategy Returns Tunned using logisticRegressionModel.png)
+!['Actual Returns vs Strategy Returns Tunned using logisticRegressionModel'](Images/Actual-Returns-vs-Strategy-Returns-BeforeTuning-using-logisticRegressionModel.png)
 
 The both models before tunned the besedline have achieved high preformance refered to classifcation reports which indicates high accuracy  
 however, after tunning the basedline for both models achieved less accuracy indicates worse preformance 
