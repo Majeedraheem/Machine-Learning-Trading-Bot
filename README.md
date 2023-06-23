@@ -75,9 +75,14 @@ In this section, you’ll tune, or adjust, the model’s input features to find 
     > **Hint** To adjust the size of the training dataset, you can use a different `DateOffset` value&mdash;for example, six months. Be aware that changing the size of the training dataset also affects the size of the testing dataset.
 
 2. Tune the trading algorithm by adjusting the SMA input features. Adjust one or both of the windows for the algorithm. Rerun the notebook with the updated parameters, and record the results in your `README.md` file. Answer the following question: What impact resulted from increasing or decreasing either or both of the SMA windows?
+The basedline was 4 days short window and 100 day long window and 3 month. 
+The adjusted to 50 and 150 days and 10 months.
+The two models before adjusting the besedline SVM model scored 55% accuracy where the Logistic Model scored 52% according to the classifcation report between the two model in basedline period. 
+however, after tunning the windows by increasing and both models have achieved less accuracy 
 
 3. Choose the set of parameters that best improved the trading algorithm returns. Save a PNG image of the cumulative product of the actual returns vs. the strategy returns, and document your conclusion in your `README.md` file.
-
+!['Actual Returns vs Strategy Returns BeforeTuning'](Images/logisticRegressionModel.png)
+ Both model preformed slighty higher with basedline which was shorter time windows 
 ### Evaluate a New Machine Learning Classifier
 
 In this section, you’ll use the original parameters that the starter code provided. But, you’ll apply them to the performance of a second machine learning model. To do so, complete the following steps:
@@ -90,7 +95,11 @@ In this section, you’ll use the original parameters that the starter code prov
 
 ### Create an Evaluation Report
 
-In the previous sections, you updated your `README.md` file with your conclusions. To accomplish this section, you need to add a summary evaluation report at the end of the `README.md` file. For this report, express your final conclusions and analysis. Support your findings by using the PNG images that you created.
+!['Actual Returns vs Strategy Returns Tunned using logisticRegressionModel'](Images/Actual Returns vs Strategy Returns Tunned using logisticRegressionModel.png)
+
+The both models before tunned the besedline have achieved high preformance refered to classifcation reports which indicates high accuracy  
+however, after tunning the basedline for both models achieved less accuracy indicates worse preformance 
+
 
 ---
 
